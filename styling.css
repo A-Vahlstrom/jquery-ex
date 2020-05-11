@@ -1,0 +1,104 @@
+body {
+    color: white;
+    background-color: black;
+}
+#main-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.big-box {
+    width: 50%;
+    background-color: orchid;
+    border: solid 3px black;
+    margin: 30px;
+    padding: 30px;
+}
+#big-box-input {
+    background-color: black;
+}
+#big-box-output {
+    background-color: black;
+    border-left: white solid 3px;
+}
+.duo {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+#color-buttons {
+    border-bottom: whitesmoke 2px solid;
+    padding-bottom: 7%;
+}
+#blue {
+    background-color: deepskyblue;
+    width: 100px;
+    margin-left: 20px;
+}
+#green {
+    background-color: forestgreen;
+    width: 100px;
+    margin-left: 20px;
+}
+#pink {
+    background-color: hotpink;
+    width: 100px;
+    margin-left: 20px;
+}
+#purple {
+    background-color: purple;
+    width: 100px;
+    margin-left: 20px;
+}
+#yellow {
+    background-color: yellow;
+    width: 100px;
+    margin-left: 20px;
+    color: black;
+}
+#orange {
+    background-color: orange;
+    width: 100px;
+    margin-left: 20px;
+}
+#silver {
+    background-color: silver;
+    width: 100px;
+    margin-left: 20px;
+}
+#red {
+    background-color: red;
+    width: 100px;
+    margin-left: 20px;
+}
+#mint {
+    background-color: mediumaquamarine;
+    width: 100px;
+    margin-left: 20px;
+}
+#brown {
+    background-color: brown;
+    width: 100px;
+    margin-left: 20px;
+}
+#display-removed {
+    width: 70%;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+#removed-text {
+    font-size: 20px;
+}
+#output-list {
+    list-style: none;
+    margin-right: 5%;
+
+}
+#output-list li {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
